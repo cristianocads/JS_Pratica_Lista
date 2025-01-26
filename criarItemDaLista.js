@@ -41,6 +41,7 @@ export function criarItemDaLista() {
     itemData.classList.add("texto-data");
     itemDaLista.appendChild(itemData);
 
+    
     return itemDaLista;
 }
 
