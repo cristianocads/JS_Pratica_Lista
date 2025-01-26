@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: #F55B64;
+    --cor-secundaria: #C2373F;
+    --neutro: #F9F9F9;
+    --preto: #131730;
+    --fonte-titulo: "Krona One", sans-serif;
+    --fonte-texto: 'Numans', sans-serif;
+    --degrade-azul: linear-gradient(180deg, #000000 0%, #26327F 100%);
+}
+
+body {
+    background: var(--degrade-azul);
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container {
+    background: var(--neutro);
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 16px;
+
+    padding: 32px;
+    width: 25%;  
+    margin-top: 64px;
+    border-radius: 16px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.input-item {
+    display: block;
+    width: 80%;
+    border-radius: 16px;
+    padding: 6px 16px;
+    border: 1px solid var(--preto);
+    font-family: var(--fonte-texto);
+}
+
+.input-item::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.button-item {
+    display: block;
+    width: 30%;
+    margin-top: 10px;
+    padding: 2px;
+    background-color: var(--cor-primaria);
+    color: var(--neutro);
+    font-family: var(--fonte-texto);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 16px;
+    border: none;
+    line-height: 24px
+}
+
+hr {
+    border-style: dashed;
+    margin-bottom: 8px;
+}
+
+.lista-tarefas {
+    width: 100%;
+}
+.lista-item-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--fonte-texto);
+    font-size: 1rem;
+}
+
+.texto-data {
+    font-family: var(--fonte-texto);
+    font-size: 0.6rem;
+    margin-bottom: 10px;
+}

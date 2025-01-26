@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lista de Tarefas</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Numans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img class="imagem" src="tasks_list.png" alt="imagem da lista">
+        
+        <form class="formulario" action="#" method="get">
+            <input class="input-item" type="text" name="input-item" id="input-item" placeholder="Insira sua tarefa...">
+            <button class="button-item" id="adicionar-item" type="button">Inserir</button>
+        </form>
+
+        <div class="lista-tarefas">
+            <h2>Lista de Tarefas</h2>
+            <hr>
+
+            <ul id="tarefas"></ul>
+            <p class="mensagem-lista-vazia">Não há nenhum item na lista no momento.</p>
+
+        </div>
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
