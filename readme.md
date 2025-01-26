@@ -4,8 +4,6 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
-![Static Badge](https://img.shields.io/badge/LICENSE%20-%20CC0%20v1.0%20-%20%2353A2FC?style=flat)
-
 </div>
 
 # Titulo do projeto
