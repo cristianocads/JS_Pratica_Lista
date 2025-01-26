@@ -5,7 +5,7 @@ const inputItem = document.getElementById("input-item");
 let contador = 0;
 
 export function criarItemDaLista() {
-    if (inputItem === "") {
+    if (inputItem.value === "") {
         alert("Por favor, insira um item!");
         return;
     }
